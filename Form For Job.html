@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form For Job</title>
+    <!--Internal CSS-->
+    <style>
+        #h1 {
+            margin-left: 2%;
+        }
+
+        #h2 {
+            margin-left: 2%;
+            color: grey;
+        }
+
+        #h22 {
+            margin-left: 2%;
+
+        }
+
+        #h3 {
+            margin-left: 12.5%;
+            color: grey;
+        }
+
+        #h33 {
+            margin-left: 11.70%;
+            color: grey;
+        }
+
+        #h333 {
+            margin-left: 6.75%;
+            color: grey;
+        }
+
+        #h7 {
+            margin-left: 2%;
+        }
+
+        #field {
+            margin-left: 2%;
+            width: 15%;
+        }
+
+        #field1 {
+            margin-left: 0.5%;
+            width: 200px;
+        }
+
+        #field2 {
+            width: 32.5%;
+            margin-left: 2%;
+        }
+
+        #area {
+            margin-left: 2%;
+            width: 32.5%;
+            padding-bottom: 3%;
+        }
+
+        #border {
+            border-style: solid;
+            padding-left: 98%;
+            margin-left: 2%;
+            border-top: 5px;
+            border-left: 5px;
+            border-right: 5px;
+            border-color: darkgray;
+        }
+
+        #button {
+            margin-left: 2%;
+            width: 32.95%;
+        }
+
+        #send {
+            margin-left: 16%;
+            padding: 10px;
+            color: black;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Headings-->
+    <h2 id="h1">Job Estimate Form</h2>
+    <h4 id="h22">Customer Information</h4>
+    <!--Form Start-->
+    <form>
+        <!--Name-->
+        <label id="h2">Name</label>
+        <br><br>
+        <input type="text" placeholder="First Name" id="field">
+        <input type="text" placeholder="Last  Name" id="field1">
+        <br><br>
+        <!--E-mail-->
+        <label id="h2">E-mail</label>
+        <!--Contact Number-->
+        <label id="h3">Contact Number</label>
+        <br><br>
+        <input type="email" placeholder="Sample@gmail.com" required id="field">
+        <input type="tel" placeholder="+92-3##-#######" id="field1">
+        <br><br>
+        <!--Address-->
+        <label id="h2">Address</label>
+        <br><br>
+        <input type="text" placeholder="Street Address" id="field2">
+        <br><br>
+        <input type="text" placeholder="Street Address Line 2" id="field2">
+        <br><br>
+        <!--City-->
+        <input type="text" placeholder="City" id="field">
+        <!--Region-->
+        <input type="text" placeholder="Region" id="field1">
+        <br><br>
+        <!--Postal Code-->
+        <input type="text" placeholder="Postal/ Zip Code" id="field">
+        <!--Country-->
+        <input type="text" placeholder="Country" id="field1">
+        <br><br>
+        <!--Job Info-->
+        <h7 id="h7"><b> Job Information</b></h7>
+        <br><br>
+        <label id="h2">Job Location</label>
+        <br>
+        <textarea id="area"></textarea>
+        <br><br>
+        <label id="h2">Description of Work</label>
+        <br>
+        <textarea id="area"></textarea>
+        <br><br>
+        <!--Material Status-->
+        <label id="h7"><b>Materials Needed</b></label>
+        <br>
+        <label id="border"></label>
+        <br><br>
+        <label id="h2">Material</label>
+        <br><br>
+        <input type="text" id="field2">
+        <br><br>
+        <label id="h2">Quantity</label>
+        <label id="h33">Price</label>
+        <br><br>
+        <input type="text" id="field">
+        <input type="text" placeholder="PKR" id="field1">
+        <br>
+        <label id="border"></label>
+        <br><br>
+        <input type="submit" value="Add More" id="button">
+        <br><br>
+        <label id="h2">Total Labor Hours</label>
+        <label id="h333">Start Date</label>
+        <br><br>
+        <input type="text" id="field">
+        <input type="date" id="field1">
+        <br><br>
+        <!--Send Button-->
+        <input type="submit" value="SEND" id="send">
+    </form>
+</body>
+</html>
